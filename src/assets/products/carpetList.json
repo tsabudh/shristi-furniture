@@ -1,0 +1,17 @@
+{
+   "carpets":{
+
+       "featured":[{
+           "name":"Yeti Carpet",
+           "image":"/image/yeti_carpet.jpg",
+           "title":"Yeti carpet, always the best!",
+           "subTitle":"Your feet will feel them, your eyes will love them."
+           }],
+           "proucts":[{
+            "name":"Sundar Carpet",
+            "image":"/image/sundar_carpet.jpg",
+            "title":"Sundar carpet, always the best!",
+            "subTitle":"Tough beauty that withstands your status."
+            }]
+        }
+    }
