@@ -1,0 +1,32 @@
+@use "/src/scss/abstract/variables" as vars;
+@use "/src/scss/abstract/mixins" as mixins;
+
+button {
+  display: inline-block;
+  font-size: 1em;
+  font-family: "Gill Sans";
+  letter-spacing: 0.4px;
+  padding: 1rem 1.2rem;
+  border: 1px solid transparent;
+  outline: none;
+  cursor: pointer;
+
+  &.rounded {
+    border-radius: 1.2em;
+  }
+  &.primary {
+    background: vars.$c-marigold-600;
+    color: vars.$c-white;
+
+    &:hover {
+      background: vars.$c-white;
+      color: vars.$c-marigold-600;
+      border-color: vars.$c-marigold-400;
+    }
+    &:active {
+      background: vars.$c-marigold-100;
+      color: vars.$c-marigold-600;
+      border-color: vars.$c-marigold-400;
+    }
+  }
+}
