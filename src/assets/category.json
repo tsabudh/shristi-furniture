@@ -1,0 +1,19 @@
+{
+  "category": [
+    {
+      "name": "Dining",
+      "image": "/images/category/dining.jpg",
+      "title": "Dining"
+    },
+    {
+      "name": "Living Room",
+      "image": "/images/category/living.jpg",
+      "title": "Living Room"
+    },
+    {
+      "name": "Bedroom",
+      "image": "/images/category/bedroom.jpg",
+      "title": "Bedroom"
+    }
+  ]
+}

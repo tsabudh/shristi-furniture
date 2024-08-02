@@ -1,23 +1,18 @@
-import React, { useState } from "react";
+import React from "react";
 
-import "./App.css";
+import "./App.scss";
 
-import { carpets } from "./assets/products/carpetList.json";
-console.log(carpets);
+import {  Route, Routes } from "react-router-dom";
+import Pages from "./pages/Pages";
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div>
-      {carpets.featured.map((item, index) => {
-        return (
-          <div key={item.name + index}>
-            <p>{item.name}</p>
-            <img src={item.image} alt="item.title" />
-            <p>{item.subtitle}</p>
-          </div>
-        );
-      })}
-    </div>
+      <Routes>
+        <Route path="/" element={<Pages />}>
+        <Route path="" index element={<HomePage/>}/>
+        </Route>
+      </Routes>
   );
 }
 
