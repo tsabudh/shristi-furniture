@@ -1,7 +1,7 @@
 @use "/src/scss/abstract/variables" as vars;
 @use "/src/scss/abstract/mixins" as mixins;
 
-.section-category {
+.section-products {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,14 +16,14 @@
     align-items: center;
   }
 
-  & .category-container {
+  & .products-container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
     gap: 2rem;
 
-    & .category-item {
+    & .product-item {
       flex-basis: 30%;
 
       display: flex;

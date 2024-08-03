@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "name": "Sofa",
+      "image": "/images/products/sofa-01.jpg",
+      "title": "Sofa",
+      "subTitle": "You will feel like sleeping on them."
+    },
+    {
+      "name": "Chair",
+      "image": "/images/products/chair-01.jpg",
+      "title": "Chair",
+      "subTitle": "Comfortable chairs that withstands your status."
+    },
+    {
+      "name": "Classic Matrices",
+      "image": "/images/products/classic-matrices-01.webp",
+      "title": "Matrices",
+      "subTitle": "Tough beauty that will last forever."
+    },
+    {
+      "name": "Bed",
+      "image": "/images/products/bed-01.jpg",
+      "title": "Bed",
+      "subTitle": "Quality sleep you never had before."
+    }
+  ]
+}

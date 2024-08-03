@@ -4,6 +4,12 @@
 .hero {
   padding: 4rem;
   background: vars.$c-gray-200;
+  height: 100vmin;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 
   & .container {
     display: flex;
@@ -11,6 +17,7 @@
     justify-content: flex-end;
     align-items: center;
 
+    flex-basis: 50%;
 
     & .content {
       flex-basis: 50%;

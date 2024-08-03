@@ -1,3 +1,6 @@
+@use "/src/scss/abstract/variables" as vars;
+@use "/src/scss/abstract/mixins" as mixins;
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -17,7 +20,11 @@
     gap: 4rem;
 
     & .nav-item {
-        text-transform: capitalize;
+      text-transform: capitalize;
+
+      & a:hover {
+        color: vars.$c-marigold-300;
+      }
     }
   }
 

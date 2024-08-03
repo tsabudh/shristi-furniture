@@ -17,7 +17,7 @@ function Navbar() {
       <nav>
         <ul className={cx("nav-menu")}>
           <li className={cx("nav-item")}>
-            <NavLink to="/home">Home</NavLink>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li className={cx("nav-item")}>
             <NavLink to="/shop">shop</NavLink>
@@ -44,7 +44,7 @@ function Navbar() {
           </li>
           <li className={cx("icon-menu-item")}>
             <NavLink to="/favorites">
-              <FaRegHeart  />
+              <FaRegHeart />
             </NavLink>
           </li>
           <li className={cx("icon-menu-item")}>

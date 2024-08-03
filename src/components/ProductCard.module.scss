@@ -1,0 +1,50 @@
+@use "/src/scss/abstract/variables" as vars;
+@use "/src/scss/abstract/mixins" as mixins;
+
+.product-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  gap: 1rem;
+  padding: 1rem;
+  border: 1px solid vars.$c-gray-300;
+
+  width: 20rem;
+  aspect-ratio: 1/1.1;
+
+  & .image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-basis: 80%;
+
+    & figure {
+      aspect-ratio: 1/1;
+
+      overflow: hidden;
+      background-color: vars.$c-gray-300;
+    }
+  }
+
+  & .details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+    & .title {
+      color: vars.$c-gray-600;
+    }
+    & .sub-title {
+      color: vars.$c-gray-400;
+    }
+
+    & .price {
+      color: vars.$c-marigold-300;
+    }
+  }
+}
