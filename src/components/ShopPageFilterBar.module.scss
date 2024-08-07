@@ -1,0 +1,51 @@
+@use "/src/scss/abstract/variables" as vars;
+@use "/src/scss/abstract/mixins" as mixins;
+
+.filter-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0.5rem;
+
+  & .filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    & .icon {
+    }
+  }
+
+  & .info {
+  }
+
+  & .show {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    & .input-show {
+      width: 5rem;
+      padding: 0.6rem 1rem;
+      text-align: center;
+      border: 1px solid vars.$c-gray-300;
+      color: vars.$c-gray-600;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+  & .sort-by {
+    & select {
+      & option {
+        color: vars.$c-gray-800;
+      }
+    }
+  }
+}
