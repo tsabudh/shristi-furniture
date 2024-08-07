@@ -8,10 +8,10 @@ import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 
 function App() {
-  console.log("what is happening? I don't get it");
+  console.log("by Sabudh Bahadur Thapa | tsabudh.com.np");
   return (
     <Routes>
-      <Route path="/" element={<Pages />}>
+      <Route path="/shristi-furniture" element={<Pages />}>
         <Route path="" index element={<HomePage />} />
         <Route path="shop" index element={<ShopPage />} />
       </Route>
