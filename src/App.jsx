@@ -8,7 +8,7 @@ import HomePage from "./pages/HomePage";
 import ShopPage from "./pages/ShopPage";
 
 function App() {
-  console.log("what is happening?");
+  console.log("what is happening? I don't get it");
   return (
     <Routes>
       <Route path="/" element={<Pages />}>
